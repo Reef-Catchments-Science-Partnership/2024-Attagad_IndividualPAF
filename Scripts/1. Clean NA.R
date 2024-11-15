@@ -1,6 +1,7 @@
 # Read the CSV file into a data frame
 Test <- read.csv("Tully_18_Pesti.csv", na.strings = c("#N/A", "NA","DA","LS"), stringsAsFactors = FALSE)
 str(Test)
+#Tully_18_Pesti.csv can be replaced with your .csv 
 
 # Replace NA and '#N/A' with ''
 Test[is.na(Test)] <- ""
