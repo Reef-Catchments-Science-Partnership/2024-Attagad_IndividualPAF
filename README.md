@@ -8,10 +8,16 @@
 **Project Name:** Assessing long temporal trends of time-series Potentially Affected Fraction (PAF) on the Great Barrier Reef rivers
 
 **Date Started:** 19/02/2024  
-**Date Last Updated:** 13/11/2024 
+**Date Last Updated:** 19/11/2024 
 
 ### Project Description
+The thesis aim is to analyse and evaluate statistical trends in water quality time-series PAF sampled in GBR waterways. Three objectives are to: 
 
+1) calculate time-series PAF for pesticide samples collected for up to 12 years from 13 monitoring sites, 
+
+2) statistically analyse temporal trends of time-series PAF by implementing Change Point analysis (CPA) and Seasonal Mann-Kendall analysis (SMK), and 
+
+3) identify and explore any significant trends at those sites with possible contributing factors. 
 
 ## Table of Contents
 
@@ -29,16 +35,41 @@
 
 
 ## 2. Scripts
-**name**
-   - description
-**name**
-   - description
+There are four main codes with one additional code used in this project. The main codes are used to clean data, convert LORs to relative LORs, core PRM to output time-series PAF of each group of pesticide mixtures (i.e., total pesticides, PSII herbicides, other herbicides, and insecticides), and change point analysis for each monitoring site in the project (13 sites). The additional code is used to visualize overall trends through boxplot analysis.  
+
+**Raw Data From Tahbil**
+   - Each excel file contains the sheets of raw data, focused year (from 2011/12 to 2022/23), working on, 22 pesticides and 18 pesticides. The raw data are extracted from the Tahbil Water Data Portal and then clipped to focused year from 2011/12 to 2022/23. Each site has different monitoring years variously from eight to 12 years due to data availability.
+   - The working on sheet demonstrates how to be excelling data. 22 pesticides are focused on the project, consequently extracted in csv and further worked with script 1. Clean NA.R 2. Convert LORs to Relative LORs.R 3. Core PRM code IA.R in following.  
+     
+**msPAF22**
+
+Overview
+- Output from `3. Core PRM code IA.R` and also used as input for `4. Boxplot and xy of PRM_HK (additional).R`. The data here, particularly total pesticides, are further adjusted to work with CPA.
+- Note: The headings of every CSV file contain station, site name, sampling year, DATE, Daily.Ave.PAF. In this context, Daily.Ave.PAF refers to time-series PAF of each type of pesticide mixtures.
+
+Insecticides
+- `msPAF22_Insecticides_Barratta.csv` -> `msPAF22_Insecticides_Tully.csv`
+
+Other Herbicides
+- `msPAF22_Other_Herbicides_Barratta.csv` -> `msPAF22_Other_Herbicides_Tully.csv`
+
+PSII Herbicides
+- `msPAF22__PSII_Barratta.csv` -> `msPAF22__PSII_Tully.csv`
+
+Total Pesticides
+- `msPAF22_Total_Barratta.csv` -> `msPAF22_Total_Tully.csv`
+
 
 
 ## 3. Outputs
 
-**name**
-   - description
+**msPAF22**
+
+- Outputs from 3. Core PRM code_IA.R, derived from Raw Data From Tahbil  
+- msPAF22_Insecticides_Barratta.csv -> msPAF22_Insecticides_Tully.csv
+- msPAF22_Other_Herbicides_Barratta.csv -> msPAF22_Other_Herbicides_Tully.csv
+- msPAF22__PSII_Barratta.csv -> msPAF22__PSII_Tully.csv
+- msPAF22_Total _Barratta.csv -> msPAF22_Total_Tully.csv 
 
 
 
