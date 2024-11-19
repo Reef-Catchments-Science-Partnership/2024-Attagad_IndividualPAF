@@ -37,7 +37,7 @@ There are four main codes with one additional code used in this project. The mai
      
 **msPAF22**
 - Output from `3. Core PRM code IA.R` and also used as input for `4. Boxplot and xy of PRM_HK (additional).R`. The data here, particularly total pesticides, are further adjusted to work with CPA.
-- Note: The headings of every CSV file contain station, site name, sampling year, DATE, Daily.Ave.PAF. In this context, Daily.Ave.PAF refers to time-series PAF of each type of pesticide mixtures.
+- Note: Daily.Ave.PAF refers to time-series PAF of each type of pesticide mixtures.
 
 - `msPAF22_Insecticides_Barratta.csv` -> `msPAF22_Insecticides_Tully.csv`
 
