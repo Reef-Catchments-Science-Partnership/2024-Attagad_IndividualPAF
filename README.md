@@ -39,31 +39,23 @@ There are four main codes with one additional code used in this project. The mai
 - Output from `3. Core PRM code IA.R` and also used as input for `4. Boxplot and xy of PRM_HK (additional).R`. The data here, particularly total pesticides, are further adjusted to work with CPA.
 - Note: Daily.Ave.PAF refers to time-series PAF of each type of pesticide mixtures.
 
-- `msPAF22_Insecticides_Barratta.csv` -> `msPAF22_Insecticides_Tully.csv`
-
-- `msPAF22_Other_Herbicides_Barratta.csv` -> `msPAF22_Other_Herbicides_Tully.csv`
-
-- `msPAF22__PSII_Barratta.csv` -> `msPAF22__PSII_Tully.csv`
-
-- `msPAF22_Total_Barratta.csv` -> `msPAF22_Total_Tully.csv`
-
 **CSV for CPA**
-- All files here are used in Change Point Analysis Scripts to output change points of each site. Each file’s headings comprised of STATION, SITENAME, Sampling.Year, DATE, Daily.Ave.PAF, logVALUE, timecon, and time.
+- All files here are used in Change Point Analysis Scripts to output change points of each site. 
 
 ## 2. Scripts
-1. Clean NA.R  
+**Clean NA.R**  
 - Work with Raw Data From Tabil, extract the sheet of 22 pesticides in csv to clean up data 
 
-2. Convert LORs to Relative LORs.R 
+**Convert LORs to Relative LORs.R** 
 - Cleanup data from 1. Clean.NA.R are used to convert LORs to relative LORs  
 
-3. Core PRM code_IA.R 
+**Core PRM code_IA.R** 
 - The relative LORs data are used with the script to output time-series PAF data of each type of pesticide mixtures 
 
-4. Boxplot and xy of PRM_HK (additional).R 
+**Boxplot and xy of PRM_HK (additional).R**
 - Use to visualize the trends of each group of pesticide mixtures, working with msPAF22 data  
 
-5. Change Point Analysis_CN_0.9_2.R 
+**Change Point Analysis_CN_0.9_2.R** 
 - Change point analysis for Sandy Creek, core code developed  
 
 
