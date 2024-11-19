@@ -13,11 +13,11 @@
 ### Project Description
 The thesis aim is to analyse and evaluate statistical trends in water quality time-series PAF sampled in GBR waterways. Three objectives are to: 
 
-1) calculate time-series PAF for pesticide samples collected for up to 12 years from 13 monitoring sites, 
+1) Calculate time-series PAF for pesticide samples collected for up to 12 years from 13 monitoring sites, 
 
-2) statistically analyse temporal trends of time-series PAF by implementing Change Point analysis (CPA) and Seasonal Mann-Kendall analysis (SMK), and 
+2) Statistically analyse temporal trends of time-series PAF by implementing Change Point analysis (CPA) and Seasonal Mann-Kendall analysis (SMK), and 
 
-3) identify and explore any significant trends at those sites with possible contributing factors. 
+3) Identify and explore any significant trends at those sites with possible contributing factors. 
 
 ## Table of Contents
 
