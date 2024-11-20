@@ -26,7 +26,8 @@ The thesis aim is to analyse and evaluate statistical trends in water quality ti
 3. Outputs
 4. Credits and Acknowledgements
 5. Citation
-6. Contact Details
+6. Acknowledgments
+7. Contact Details
 
 ## 1. Data
 There are four main codes with one additional code used in this project. The main codes are used to clean data, convert LORs to relative LORs, core PRM to output time-series PAF of each group of pesticide mixtures (i.e., total pesticides, PSII herbicides, other herbicides, and insecticides), and change point analysis for each monitoring site in the project (13 sites). The additional code is used to visualize overall trends through boxplot analysis.  
@@ -70,13 +71,29 @@ Outputs from 3. Core PRM code_IA.R, derived from Raw Data From Tahbil
 
 
 
-## 4. Credits and Acknowledgements 
+## 4. References
+
+1. Bezzina, A., Neelamraju, C., Strauss, J., Kaminski, H., Roberts, C., Glen, J., & Dias, F. (2022). *CatchThemAll.PRM: Pesticide Risk Metric Calculations. R package*. Water Quality Monitoring & Investigations, Department of Environment and Science, Queensland Government. GitHub Repository. https://github.com/AlexWaterboyBezzina/CatchThemAll.PRM
+
+2. Warne, M., Neelamraju, C., Strauss, J., Smith, R., Turner, R., & Mann, R. (2020). *Development of a Method for Estimating the Toxicity of Pesticide Mixtures and a Pesticide Risk Baseline for the Reef 2050 Water Quality Improvement Plan*. https://doi.org/10.13140/RG.2.2.24439.55202
+
+3. Water Quality & Investigations. (2024a). *Tahbil - Water Quality Data Portal*. Queensland Government, Brisbane. Water Data Portal. https://apps.des.qld.gov.au/water-data-portal
+
+4. Water Quality & Investigations. (2023). *Pesticide Risk Metric Dashboard*. Department of Environment and Science, Brisbane, Australia. PRM Dashboard. https://prmdashboard.des.qld.gov.au/
+
+5. Water Quality & Investigations. (2023). *Pesticide Risk Metric Calculator*. Department of Environment and Science, Brisbane, Australia. PRM Calculator. https://prmcalculator.des.qld.gov.au/
 
 
-## 5. Citation
+## 5. Acknowledgements
+
+Catherine Neeramjaru and Hayley Kaminski for their contributions on adapting the msPAF and CPA scripts for this analysis
+
+
+## 6. Citation
 
 Reef Catchments Science Partnership. (2024). *Attagad Pesticide Risk Prediction Sandy Creek*. GitHub. https://github.com/Reef-Catchments-Science-Partnership/2024_Attagad_IndividualPAF/
 
 
-## 6. Contact Details
+## 7. Contact Details
+
 Please contact rcsp.info@uq.edu.au for any inquiries related to this repository.
