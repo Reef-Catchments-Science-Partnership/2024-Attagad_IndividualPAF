@@ -24,9 +24,9 @@ The thesis aim is to analyse and evaluate statistical trends in water quality ti
 1. Data
 2. Scripts
 3. Outputs
-4. Credits and Acknowledgements
-5. Citation
-6. Acknowledgments
+4. References
+5. Acknowledgments
+6. Citation
 7. Contact Details
 
 ## 1. Data
