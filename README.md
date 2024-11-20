@@ -4,7 +4,7 @@
 # Assessing long temporal trends of time-series Potentially Affected Fraction (PAF) on the Great Barrier Reef rivers
 ## Project Overview
 
-**Owner/s:**  and Ryan Turner  
+**Owner/s:** Nattapat Attagad and Ryan Turner  
 **Project Name:** Assessing long temporal trends of time-series Potentially Affected Fraction (PAF) on the Great Barrier Reef rivers
 
 **Date Started:** 19/02/2024  
