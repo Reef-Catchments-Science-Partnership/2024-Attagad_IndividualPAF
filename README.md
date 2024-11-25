@@ -41,7 +41,11 @@ There are four main codes with one additional code used in this project. The mai
 - Note: Daily.Ave.PAF refers to time-series PAF of each type of pesticide mixtures.
 
 **CSV for CPA**
-- All files here are used in Change Point Analysis Scripts to output change points of each site. 
+- All files here are used in Change Point Analysis Scripts to output change points of each site.
+
+**Cleanup_data**
+
+**Treated_LOR**
 
 ## 2. Scripts
 **Clean NA.R**  
